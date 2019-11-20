@@ -1,0 +1,11 @@
+#!/mnt/usb-TOSHIBA_External_USB_3.0_20120612003229F-0:0-part1/t2t/venv/bin/python3
+
+# -*- coding: utf-8 -*-
+import re
+import sys
+
+from pip import main
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())
