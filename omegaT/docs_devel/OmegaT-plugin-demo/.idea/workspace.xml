@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="OmegaT-plugin-demo:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="176c3236-7418-4bfa-96dc-2af1dc9bb560" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/OmegaT_plugin_demo_jar/OmegaT-plugin-demo.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OmegaT-plugins-Google2MT/License.txt" beforeDir="false" afterPath="$PROJECT_DIR$/OmegaT-plugins-DemoGoogle/License.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OmegaT-plugins-Google2MT/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OmegaT-plugins-DemoGoogle/build.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OmegaT-plugins-Google2MT/lib/CopyLibs/org-netbeans-modules-java-j2seproject-copylibstask.jar" beforeDir="false" afterPath="$PROJECT_DIR$/OmegaT-plugins-DemoGoogle/lib/CopyLibs/org-netbeans-modules-java-j2seproject-copylibstask.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OmegaT-plugins-Google2MT/lib/nblibraries.properties" beforeDir="false" afterPath="$PROJECT_DIR$/OmegaT-plugins-DemoGoogle/lib/nblibraries.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OmegaT-plugins-Google2MT/manifest.mf" beforeDir="false" afterPath="$PROJECT_DIR$/OmegaT-plugins-DemoGoogle/manifest.mf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OmegaT-plugins-Google2MT/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OmegaT-plugins-DemoGoogle/nbproject/build-impl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OmegaT-plugins-Google2MT/nbproject/genfiles.properties" beforeDir="false" afterPath="$PROJECT_DIR$/OmegaT-plugins-DemoGoogle/nbproject/genfiles.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OmegaT-plugins-Google2MT/nbproject/private/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/OmegaT-plugins-DemoGoogle/nbproject/private/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OmegaT-plugins-Google2MT/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/OmegaT-plugins-DemoGoogle/nbproject/private/private.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OmegaT-plugins-Google2MT/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OmegaT-plugins-DemoGoogle/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OmegaT-plugins-Google2MT/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/OmegaT-plugins-DemoGoogle/nbproject/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OmegaT-plugins-Google2MT/nbproject/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OmegaT-plugins-DemoGoogle/nbproject/project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OmegaT-plugins-Google2MT/src-stubs/org/omegat/core/machinetranslators/BaseTranslate.java" beforeDir="false" afterPath="$PROJECT_DIR$/OmegaT-plugins-DemoGoogle/src-stubs/org/omegat/core/machinetranslators/BaseTranslate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OmegaT-plugins-Google2MT/src-stubs/org/omegat/gui/exttrans/IMachineTranslation.java" beforeDir="false" afterPath="$PROJECT_DIR$/OmegaT-plugins-DemoGoogle/src-stubs/org/omegat/gui/exttrans/IMachineTranslation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OmegaT-plugins-Google2MT/src-stubs/org/omegat/util/Language.java" beforeDir="false" afterPath="$PROJECT_DIR$/OmegaT-plugins-DemoGoogle/src-stubs/org/omegat/util/Language.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OmegaT-plugins-Google2MT/src-stubs/org/omegat/util/PatternConsts.java" beforeDir="false" afterPath="$PROJECT_DIR$/OmegaT-plugins-DemoGoogle/src-stubs/org/omegat/util/PatternConsts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OmegaT-plugins-Google2MT/src-stubs/org/omegat/util/WikiGet.java" beforeDir="false" afterPath="$PROJECT_DIR$/OmegaT-plugins-DemoGoogle/src-stubs/org/omegat/util/WikiGet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OmegaT-plugins-Google2MT/src/org/omegat/plugin/machinetranslators/Google2Translate.java" beforeDir="false" afterPath="$PROJECT_DIR$/OmegaT-plugins-DemoGoogle/src/org/omegat/plugin/machinetranslators/DemoGoogle.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1T2l8DuGLEZXwRnHeTfq5U8b0rm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="omegat-plugin-demo" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="176c3236-7418-4bfa-96dc-2af1dc9bb560" name="Default Changelist" comment="" />
+      <created>1572665909305</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572665909305</updated>
+      <workItem from="1572665910599" duration="2147000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
