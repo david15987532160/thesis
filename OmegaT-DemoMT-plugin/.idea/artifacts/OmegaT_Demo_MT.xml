@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="OmegaT_Demo_MT">
+    <output-path>$PROJECT_DIR$/out/artifacts/OmegaT_Demo_MT</output-path>
+    <root id="archive" name="OmegaT_Demo_MT.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
