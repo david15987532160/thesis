@@ -67,7 +67,7 @@ public class TranslateController {
     ) {
         String result = res;
 
-        StringBuilder pyBuilder = new StringBuilder("/usr/bin/python3 /home/phamanh/Documents/thesis/test.py -s ");
+        StringBuilder pyBuilder = new StringBuilder("/usr/bin/python3 /home/phamanh/Documents/thesis/en_vi.py -s ");
 
 //        String py = "";
 //
