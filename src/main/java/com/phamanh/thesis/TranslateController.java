@@ -61,59 +61,89 @@ public class TranslateController {
 //        }
 //    }
 
-    @PostMapping("/test_hello")
+    @PostMapping("/translate")
     public String translate(
-            String res
+            String res,
+            String src
     ) {
-        String result = res;
+        String source = src;
+//        System.out.println(src);
+        if (source.equals("en")) {
+//            System.out.println("en-vi translate");
+            String result = res;
+            String path = "/usr/bin/python3 /home/phamanh/Documents/thesis/en_vi.py -s ";
+            StringBuilder pyBuilder = new StringBuilder(path);
 
-        StringBuilder pyBuilder = new StringBuilder("/usr/bin/python3 /home/phamanh/Documents/thesis/en_vi.py -s ");
+            pyBuilder.append(URLEncoder.encode(result.trim(), StandardCharsets.UTF_8).replace("+", "%20"));
 
-//        String py = "";
-//
-//        String[] cmd = new String[]{py, name};
+//            System.out.println(pyBuilder.toString());
 
-        pyBuilder.append(URLEncoder.encode(result.trim(), StandardCharsets.UTF_8).replace("+", "%20"));
+            try {
+                Process p = Runtime.getRuntime().exec(pyBuilder.toString());
+                p.waitFor();
 
-        System.out.println(pyBuilder.toString());
-
-        try {
-            Process p = Runtime.getRuntime().exec(pyBuilder.toString());
-            p.waitFor();
-
-            BufferedReader reader = new BufferedReader(new InputStreamReader(p.getInputStream()));
-            StringBuilder sb = new StringBuilder();
-            String line1 = null;
-            while ((line1 = reader.readLine()) != null) {
-                sb.append(line1);
-            }
+                BufferedReader reader = new BufferedReader(new InputStreamReader(p.getInputStream()));
+                StringBuilder sb = new StringBuilder();
+                String line1 = null;
+                while ((line1 = reader.readLine()) != null) {
+                    sb.append(line1);
+                }
 //            return ResultModel.builder().data(sb.toString()).build();
-            return sb.toString();
-        } catch (Exception e) {
+                return sb.toString();
+            } catch (Exception e) {
 //            return ResultModel.builder().error(e.getMessage()).build();
-            return e.getMessage();
+                return e.getMessage();
+            }
+        } else if (source.equals("vi")) {
+//            System.out.println("vi-en translate");
+            String result = res;
+            String path = "/usr/bin/python3 /home/phamanh/Documents/thesis/vi_en.py -s ";
+            StringBuilder pyBuilder = new StringBuilder(path);
+
+            pyBuilder.append(URLEncoder.encode(result.trim(), StandardCharsets.UTF_8).replace("+", "%20"));
+
+//            System.out.println(pyBuilder.toString());
+
+            try {
+                Process p = Runtime.getRuntime().exec(pyBuilder.toString());
+                p.waitFor();
+
+                BufferedReader reader = new BufferedReader(new InputStreamReader(p.getInputStream()));
+                StringBuilder sb = new StringBuilder();
+                String line1 = null;
+                while ((line1 = reader.readLine()) != null) {
+                    sb.append(line1);
+                }
+//            return ResultModel.builder().data(sb.toString()).build();
+                return sb.toString();
+            } catch (Exception e) {
+//            return ResultModel.builder().error(e.getMessage()).build();
+                return e.getMessage();
+            }
         }
+
+        return "Cannot translate. Currently, we only support En-Vi or Vi-En translation.";
     }
 
-    @GetMapping("/translate")
-    public String translate_GET(
-            @RequestParam("q") String q
-    ) {
-        // Do somethings...
-
-        if (!q.equals("we were poor")) {
-//            return ResultModel
-//                    .builder()
-//                    .code(111)
-//                    .error("Cannot translate.")
-//                    .build();
-
-            return "Cant translate.";
-        }
-
-//        return ResultModel.builder().data("Xin chao.").build();
-//        return ResultModel.builder().data("Xin chao.").build();
-
-        return "chúng tôi đã từng nghèo";
-    }
+//    @GetMapping("/test_hello")
+//    public String translate_GET(
+//            @RequestParam("q") String q
+//    ) {
+//        // Do somethings...
+//
+//        if (!q.equals("we were poor")) {
+////            return ResultModel
+////                    .builder()
+////                    .code(111)
+////                    .error("Cannot translate.")
+////                    .build();
+//
+//            return "Cant translate.";
+//        }
+//
+////        return ResultModel.builder().data("Xin chao.").build();
+////        return ResultModel.builder().data("Xin chao.").build();
+//
+//        return "chúng tôi đã từng nghèo";
+//    }
 }
